@@ -16,3 +16,8 @@ set enc=utf-8
 set fillchars+=vert:\|
 set fillchars+=stl:\-
 set fillchars+=stlnc:\-
+
+" Theme colors and font
+color solarized
+set background=light
+set gfn=Menlo:h16
