@@ -8,3 +8,5 @@ filetype plugin indent on
 
 " Shared clipboard
 set clipboard+=unnamed
+" Set line numbers display
+set nu
