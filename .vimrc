@@ -10,3 +10,9 @@ filetype plugin indent on
 set clipboard+=unnamed
 " Set line numbers display
 set nu
+
+" Split characters set
+set enc=utf-8
+set fillchars+=vert:\|
+set fillchars+=stl:\-
+set fillchars+=stlnc:\-
