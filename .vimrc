@@ -21,3 +21,7 @@ set fillchars+=stlnc:\-
 color solarized
 set background=light
 set gfn=Menlo:h16
+
+" Read slim file type
+au! BufRead,BufNewFile *.slim         setfiletype slim
+autocmd BufWritePre * :%s/\s\+$//e
