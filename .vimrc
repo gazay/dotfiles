@@ -25,3 +25,7 @@ set gfn=Menlo:h16
 " Read slim file type
 au! BufRead,BufNewFile *.slim         setfiletype slim
 autocmd BufWritePre * :%s/\s\+$//e
+
+" Don't write backup files
+set nobackup
+set nowritebackup
