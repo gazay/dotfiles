@@ -37,3 +37,8 @@ set ignorecase
 " Mouse options
 set mouse=a
 set scrolloff=5
+
+" Indentation settings
+set expandtab
+set tabstop=2 shiftwidth=2 softtabstop=2
+set autoindent
