@@ -42,3 +42,6 @@ set scrolloff=5
 set expandtab
 set tabstop=2 shiftwidth=2 softtabstop=2
 set autoindent
+
+" Less timeout for keycode entering
+set ttimeoutlen=100
