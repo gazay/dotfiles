@@ -33,3 +33,7 @@ set nowritebackup
 " Search settings
 set incsearch
 set ignorecase
+
+" Mouse options
+set mouse=a
+set scrolloff=5
