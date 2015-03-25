@@ -49,3 +49,10 @@ set ttimeoutlen=100
 " Nerdtree mapped to cmd-N
 let NERDTreeAutoDeleteBuffer=1
 map <C-n> :NERDTreeToggle<CR>
+
+" Run nerdtree on startup
+function! StartUp()
+  if 0 == argc()
+    NERDTree
+  end
+endfunction
