@@ -45,3 +45,7 @@ set autoindent
 
 " Less timeout for keycode entering
 set ttimeoutlen=100
+
+" Nerdtree mapped to cmd-N
+let NERDTreeAutoDeleteBuffer=1
+map <C-n> :NERDTreeToggle<CR>
