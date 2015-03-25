@@ -29,3 +29,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 " Don't write backup files
 set nobackup
 set nowritebackup
+
+" Search settings
+set incsearch
+set ignorecase
