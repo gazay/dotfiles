@@ -56,3 +56,5 @@ function! StartUp()
     NERDTree
   end
 endfunction
+
+autocmd VimEnter * call StartUp()
