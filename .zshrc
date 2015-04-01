@@ -32,3 +32,10 @@ function n {
         return 1
     fi
 }
+
+# Chruby env
+source /usr/local/share/chruby/chruby.sh
+source /usr/local/share/chruby/auto.sh
+
+# Default ruby 2.2.2
+chruby 2.2.2
