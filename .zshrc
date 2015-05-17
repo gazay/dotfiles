@@ -23,6 +23,11 @@ alias fgp='front/node_modules/.bin/gulp'
 alias gb='node_modules/.bin/gulp build'
 alias fgb='front/node_modules/.bin/gulp build'
 
+# PS
+alias psa="ps aux"
+alias psg="ps aux | grep "
+alias psr='ps aux | grep ruby'
+
 # NPM shortcuts
 function n {
     if [ -d `npm bin` ]; then
