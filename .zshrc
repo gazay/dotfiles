@@ -32,6 +32,9 @@ alias psr='ps aux | grep ruby'
 alias df='df -h'
 alias du='du -h -d 2'
 
+# Zippin
+alias gz='tar -zcvf'
+
 if [[ $platform == 'linux' ]]; then
   alias ll='ls -alh --color=auto'
   alias ls='ls --color=auto'
