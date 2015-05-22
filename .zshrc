@@ -6,7 +6,9 @@ export LC_ALL="en_US.UTF-8"
 export LANG="en_US.UTF-8"
 
 # Default editor: vim
+set -o vi
 export EDITOR=vim
+export VISUAL=vim
 
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
