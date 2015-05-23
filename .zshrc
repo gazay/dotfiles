@@ -60,6 +60,13 @@ function n {
     fi
 }
 
+# Functions
+#
+# (f)ind by (n)ame
+# usage: fn foo
+# to find all files containing 'foo' in the name
+function fn() { ls **/*$1* }
+
 # Chruby env
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
