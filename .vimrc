@@ -26,6 +26,13 @@ set gfn=Menlo:h16
 au! BufRead,BufNewFile *.slim         setfiletype slim
 autocmd BufWritePre * :%s/\s\+$//e
 
+" Support for github flavored markdown
+" via https://github.com/jtratner/vim-flavored-markdown
+augroup markdown
+    au!
+    au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
+augroup END
+
 " Don't write backup files
 set nobackup
 set nowritebackup
