@@ -71,3 +71,5 @@ nmap ,ag :Ag ""<Left>
 nmap ,af :AgFile ""<Left>
 
 set runtimepath^=~/.vim/bundle/ag
+
+nnoremap ,rs :RunItermSpec<cr>
