@@ -43,6 +43,9 @@ alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune &&
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
+# Reload the shell (i.e. invoke as a login shell)
+alias reload="exec $SHELL -l"
+
 if [[ $platform == 'linux' ]]; then
   alias ll='ls -alh --color=auto'
   alias ls='ls --color=auto'
