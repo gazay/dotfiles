@@ -106,3 +106,6 @@ nnoremap ,ocf :OpenChangedFiles<CR>
 " This is relying on the textobj-rubyblock which gives us 'ar' around ruby
 " and matchit.vim which gives us jumping to the matching
 nnoremap <silent> ,orb :normal varar%<esc><esc>
+
+"Abbreviations, trigger by typing the abbreviation and hitting space
+abbr pry! require 'pry'; binding.pry
