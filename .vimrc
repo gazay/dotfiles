@@ -109,4 +109,5 @@ nnoremap <silent> ,orb :normal varar%<esc><esc>
 
 "Abbreviations, trigger by typing the abbreviation and hitting space
 abbr pry! require 'pry'; binding.pry
-abbr log Rails.logger.info "
+abbr log! Rails.logger.info ""<left>
+abbr cl! console.log ( )<left><left>
