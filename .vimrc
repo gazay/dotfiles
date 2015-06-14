@@ -72,6 +72,10 @@ nmap ,af :AgFile ""<Left>
 
 set runtimepath^=~/.vim/bundle/ag
 
+" w!! to write a file as sudo
+" stolen from Steve Losh
+cmap w!! w !sudo tee % >/dev/null
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " OpenChangedFiles COMMAND
 " Open a split for each dirty file in git
