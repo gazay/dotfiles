@@ -1,0 +1,9 @@
+[user]
+	name = Alexey Gaziev
+	email = alex.gaziev@gmail.com
+[credential]
+	helper = osxkeychain
+[github]
+	user = gazay
+[core]
+	excludesfile = /Users/alex/.gitignore
