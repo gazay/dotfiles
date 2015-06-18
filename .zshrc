@@ -16,6 +16,9 @@ ZSH_THEME="gazay"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
+# Alias to vim from brew
+alias vim='/usr/local/bin/vim'
+
 # Work path
 alias gow='cd ~/code/martians/amplifr'
 
